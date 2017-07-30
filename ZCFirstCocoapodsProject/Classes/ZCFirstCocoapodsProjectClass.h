@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface ZCFirstCocoapodsProjectClass : NSObject
+
 + (void)sayHi;
+
 @end
