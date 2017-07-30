@@ -1,0 +1,6 @@
+framework module ZCFirstCocoapodsProject {
+  umbrella header "ZCFirstCocoapodsProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

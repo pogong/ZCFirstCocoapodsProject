@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZCFirstCocoapodsProject (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZCFirstCocoapodsProject (from `../`)
+
+EXTERNAL SOURCES:
+  ZCFirstCocoapodsProject:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZCFirstCocoapodsProject: 7d518f3268cccb644500542e00b2fdb978010297
+
+PODFILE CHECKSUM: 1f1ca9ff11cfaf82f76784b619e19fb5f63038f4
+
+COCOAPODS: 1.2.1

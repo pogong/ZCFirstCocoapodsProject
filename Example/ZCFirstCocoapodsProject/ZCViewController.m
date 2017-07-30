@@ -7,6 +7,8 @@
 //
 
 #import "ZCViewController.h"
+#import <ZCFirstCocoapodsProject/ZCFirstCocoapodsProjectClass.h>
+#import <ZCFirstCocoapodsProject/ZCFirstCocoapodsProjectClass2.h>
 
 @interface ZCViewController ()
 
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [ZCFirstCocoapodsProjectClass sayHi];
+    [ZCFirstCocoapodsProjectClass2 sayHi];
+    
 }
 
 - (void)didReceiveMemoryWarning
