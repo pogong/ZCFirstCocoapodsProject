@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   #   'ZCFirstCocoapodsProject' => ['ZCFirstCocoapodsProject/Assets/*.png']
   # }
 
-  s.public_header_files = 'ZCFirstCocoapodsProject/Classes/*.h'
+  #s.public_header_files = 'ZCFirstCocoapodsProject/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
