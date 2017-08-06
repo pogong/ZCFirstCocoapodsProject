@@ -29,6 +29,10 @@
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97B4FAEECE96D4B903E0BFD5F3F51331 /* ZCFirstCocoapodsProjectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CDD75743385A055098CCD33FC414E7 /* ZCFirstCocoapodsProjectClass.m */; };
+		A327BFC51F3706740047BE56 /* ZCtop.h in Headers */ = {isa = PBXBuildFile; fileRef = A327BFC31F3706740047BE56 /* ZCtop.h */; };
+		A327BFC61F3706740047BE56 /* ZCtop.m in Sources */ = {isa = PBXBuildFile; fileRef = A327BFC41F3706740047BE56 /* ZCtop.m */; };
+		A327BFC91F3706C50047BE56 /* ZCFirstCocoapodsProjectClass3.h in Headers */ = {isa = PBXBuildFile; fileRef = A327BFC71F3706C50047BE56 /* ZCFirstCocoapodsProjectClass3.h */; };
+		A327BFCA1F3706C50047BE56 /* ZCFirstCocoapodsProjectClass3.m in Sources */ = {isa = PBXBuildFile; fileRef = A327BFC81F3706C50047BE56 /* ZCFirstCocoapodsProjectClass3.m */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		A8E8545577D95A73278D48054B725808 /* Pods-ZCFirstCocoapodsProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC88B19E2D4EF2874267679AB89729D7 /* Pods-ZCFirstCocoapodsProject_Example-dummy.m */; };
 		A9B0C88B731BF9B93403F3D42C564421 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
@@ -71,7 +75,7 @@
 		160B6774A877691ADB1028481669B59C /* Pods-ZCFirstCocoapodsProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCFirstCocoapodsProject_Tests-dummy.m"; sourceTree = "<group>"; };
 		247C5871014C6394E2E2ED26140E083E /* Pods-ZCFirstCocoapodsProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCFirstCocoapodsProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		24CBB5A92F55519473CAD909460E6170 /* Pods-ZCFirstCocoapodsProject_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZCFirstCocoapodsProject_Example-umbrella.h"; sourceTree = "<group>"; };
-		28DFE8246FCA2BA8EA91C3C73BE5C809 /* Pods_ZCFirstCocoapodsProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZCFirstCocoapodsProject_Tests.framework; path = "Pods-ZCFirstCocoapodsProject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DFE8246FCA2BA8EA91C3C73BE5C809 /* Pods_ZCFirstCocoapodsProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCFirstCocoapodsProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		34915068A6068E5294F5C554A2C17BBB /* Pods-ZCFirstCocoapodsProject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZCFirstCocoapodsProject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -81,30 +85,34 @@
 		3DFF2CC3A086019968C9035445F02A1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425F009EC2387328EC224D5F98E140BA /* Pods-ZCFirstCocoapodsProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCFirstCocoapodsProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		4F98158E0878F2F000E5BB5C246F785B /* Pods-ZCFirstCocoapodsProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZCFirstCocoapodsProject_Example.modulemap"; sourceTree = "<group>"; };
+		4F98158E0878F2F000E5BB5C246F785B /* Pods-ZCFirstCocoapodsProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZCFirstCocoapodsProject_Example.modulemap"; sourceTree = "<group>"; };
 		5265AC051375D41153CD2673EF49220D /* ZCFirstCocoapodsProjectClass2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCFirstCocoapodsProjectClass2.h; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		65672DD7F6ABEF01E6D8A74E79BE19CC /* Pods_ZCFirstCocoapodsProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZCFirstCocoapodsProject_Example.framework; path = "Pods-ZCFirstCocoapodsProject_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65672DD7F6ABEF01E6D8A74E79BE19CC /* Pods_ZCFirstCocoapodsProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCFirstCocoapodsProject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		694C9AF56AA7144C42C5430826AB470D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D5009E1E500FFF40B82DEBA5D35D9A4 /* Pods-ZCFirstCocoapodsProject_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCFirstCocoapodsProject_Example-resources.sh"; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		8228BDB00A60988858CDAF7AC5A7B537 /* Pods-ZCFirstCocoapodsProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZCFirstCocoapodsProject_Tests.modulemap"; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		8228BDB00A60988858CDAF7AC5A7B537 /* Pods-ZCFirstCocoapodsProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZCFirstCocoapodsProject_Tests.modulemap"; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		986EEA34903F6F9077C4D82759EFE689 /* ZCFirstCocoapodsProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZCFirstCocoapodsProject.framework; path = ZCFirstCocoapodsProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		986EEA34903F6F9077C4D82759EFE689 /* ZCFirstCocoapodsProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZCFirstCocoapodsProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D449212C0EE9F34F3B484E75A2CE6C /* Pods-ZCFirstCocoapodsProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCFirstCocoapodsProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A327BFC31F3706740047BE56 /* ZCtop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCtop.h; sourceTree = "<group>"; };
+		A327BFC41F3706740047BE56 /* ZCtop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCtop.m; sourceTree = "<group>"; };
+		A327BFC71F3706C50047BE56 /* ZCFirstCocoapodsProjectClass3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCFirstCocoapodsProjectClass3.h; sourceTree = "<group>"; };
+		A327BFC81F3706C50047BE56 /* ZCFirstCocoapodsProjectClass3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCFirstCocoapodsProjectClass3.m; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B558864852DC5B8BAB924DE30FECE69A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8A4088AC68AAC34CCD81AF757285BDD /* ZCFirstCocoapodsProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCFirstCocoapodsProject-dummy.m"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BC5C609B9E367251595328030518AE88 /* Pods-ZCFirstCocoapodsProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCFirstCocoapodsProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C164C179F9051378C8EE7D37C6CB530E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C164C179F9051378C8EE7D37C6CB530E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2582E9D278A546144D763C3F299BF47 /* ZCFirstCocoapodsProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCFirstCocoapodsProject.xcconfig; sourceTree = "<group>"; };
 		C3CDD75743385A055098CCD33FC414E7 /* ZCFirstCocoapodsProjectClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCFirstCocoapodsProjectClass.m; sourceTree = "<group>"; };
 		C5D0CDF33906CA2BEC5F341BCB840301 /* Pods-ZCFirstCocoapodsProject_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCFirstCocoapodsProject_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -118,7 +126,7 @@
 		E1FD20C3A9575D5AA6814AF1C6EC17AE /* Pods-ZCFirstCocoapodsProject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCFirstCocoapodsProject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		EC88B19E2D4EF2874267679AB89729D7 /* Pods-ZCFirstCocoapodsProject_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCFirstCocoapodsProject_Example-dummy.m"; sourceTree = "<group>"; };
-		F46B35049D9EE4B084C41C8B5260FD2A /* ZCFirstCocoapodsProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZCFirstCocoapodsProject.modulemap; sourceTree = "<group>"; };
+		F46B35049D9EE4B084C41C8B5260FD2A /* ZCFirstCocoapodsProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZCFirstCocoapodsProject.modulemap; sourceTree = "<group>"; };
 		F527E96119BF96855D40313588A2D9CF /* Pods-ZCFirstCocoapodsProject_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCFirstCocoapodsProject_Tests-resources.sh"; sourceTree = "<group>"; };
 		F7C2FAC4AB716340CA9B661E1B00596A /* ZCFirstCocoapodsProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCFirstCocoapodsProject-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,7 +199,6 @@
 				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -220,8 +227,11 @@
 				C3CDD75743385A055098CCD33FC414E7 /* ZCFirstCocoapodsProjectClass.m */,
 				5265AC051375D41153CD2673EF49220D /* ZCFirstCocoapodsProjectClass2.h */,
 				C6947FA475BACC5A12F19458DF5A8EF3 /* ZCFirstCocoapodsProjectClass2.m */,
+				A327BFC31F3706740047BE56 /* ZCtop.h */,
+				A327BFC41F3706740047BE56 /* ZCtop.m */,
+				A327BFC71F3706C50047BE56 /* ZCFirstCocoapodsProjectClass3.h */,
+				A327BFC81F3706C50047BE56 /* ZCFirstCocoapodsProjectClass3.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -275,7 +285,6 @@
 			children = (
 				3582A64909A3E084C6681DFDD0F907FD /* Classes */,
 			);
-			name = ZCFirstCocoapodsProject;
 			path = ZCFirstCocoapodsProject;
 			sourceTree = "<group>";
 		};
@@ -379,8 +388,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A327BFC51F3706740047BE56 /* ZCtop.h in Headers */,
 				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
 				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
+				A327BFC91F3706C50047BE56 /* ZCFirstCocoapodsProjectClass3.h in Headers */,
 				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
 				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
 				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
@@ -541,6 +552,8 @@
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
+				A327BFCA1F3706C50047BE56 /* ZCFirstCocoapodsProjectClass3.m in Sources */,
+				A327BFC61F3706740047BE56 /* ZCtop.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
