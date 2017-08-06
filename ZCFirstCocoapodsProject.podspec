@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZCFirstCocoapodsProject'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'ZCFirstCocoapodsProject xx'
 
 # This description is used to generate tags and improve search results.
@@ -28,13 +28,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZCFirstCocoapodsProject/Classes/**/*'
-  
+  s.source_files = 'ZCFirstCocoapodsProject/Classes/**.{h.m}'
+
   # s.resource_bundles = {
   #   'ZCFirstCocoapodsProject' => ['ZCFirstCocoapodsProject/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'ZCFirstCocoapodsProject/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

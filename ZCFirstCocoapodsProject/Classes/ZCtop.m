@@ -9,5 +9,7 @@
 #import "ZCtop.h"
 
 @implementation ZCtop
-
++ (void)sayHi{
+    NSLog(@"%s",__func__);
+}
 @end
